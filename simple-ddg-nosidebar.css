@@ -1,0 +1,11 @@
+@-moz-document domain("duckduckgo.com") {
+    * {
+        min-width: initial !important;
+    }
+
+    .results--sidebar,
+    .js-results-sidebar
+    {
+        visibility: collapse;
+    }
+}
