@@ -12,8 +12,7 @@
 	}
 
 	.results--sidebar,
-	.js-results-sidebar
-	{
+	.js-results-sidebar {
 		visibility: collapse;
 	}
 }
