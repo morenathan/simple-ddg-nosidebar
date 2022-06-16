@@ -1,11 +1,9 @@
 /* ==UserStyle==
 @name           Simple DuckDuckGo - No Sidebar
 @description    Simple, hide the sidebar along with fix page width hinting.
-@namespace      gihub.com/nwmatch/simple-ddg-nosidebar
 @homepageURL    https://github.com/nwatham/simple-ddg-nosidebar
-@version        1
 @author         Nathan Middleton
-@license        BSD-2
+@license        BSD-2-Clause
 ==/UserStyle== */
 @-moz-document domain("duckduckgo.com") {
     * {
