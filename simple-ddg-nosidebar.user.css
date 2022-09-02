@@ -10,6 +10,10 @@
 	* {
 		min-width: initial !important;
 	}
+	
+	.results--main {
+		max-width: initial !important;
+	}
 
 	.results--sidebar,
 	.js-results-sidebar {
