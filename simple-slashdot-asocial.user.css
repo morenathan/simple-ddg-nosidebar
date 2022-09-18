@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name           Simple Slashdot - Asocial
+@namespace      github.com/morenathan/user-css-simple
+@version        1
+@description    Simple, hide secondary links and social buttons.
+@author         Nathan Middleton <nathan@aplace.us>
+@license        BSD-2-Clause
+==/UserStyle== */
+
+@-moz-document domain("slashdot.org") {
+    /* Insert code here... */    .nav-primary,
+    .nav-user {
+        line-height: initial !important;        
+    }
+    
+    .nav-secondary-wrap {
+        display: none;
+    }
+}
