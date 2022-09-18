@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           Simple DuckDuckGo - No Popups
+@namespace      github.com/morenathan/simple-ddg
+@version        1
+@description    Simple, try to hide popups for DDG services.
+@author         Nathan Middleton <nathan@aplace.us>
+@license        BSD-2-Clause
+==/UserStyle== */
+
+@-moz-document domain("duckduckgo.com") {
+    .badge-link,
+    #zero_click_wrapper {
+        display: none !important;
+    }
+}
