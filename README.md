@@ -1,3 +1,5 @@
 # Helping My Web Be Calmer
-<p>These are just some user CSS files that make my life easier. I have autism and part of it is being easily distractted. When I find a page with something that will improve it for me I use the browser tools and Stylus to remove it.</p>
-<p>Those little tidbits becomes a "simple" css addition. They get submitted for others if they find them useful.</p>
+<p>To help me focus on sites that may be visited regularly I'll make small changes. These are meant to be as minimally invasive to the overall site as possible and help the readability. Also, when a site breaks the ability to easily shrink/grows causing me to horizontal scroll it's important for me to find and fix such bad design.</p>
+<p>These user CSS files attempt to make my life better by doing the above. Each file is broken up by site and function. I try not to have any two changes in a single file and instead have a set of building blocks.</p>
+<p>If you find any of these building blocks userful, please feel free to use them! Or, reuse them with fixes if they need them. If you find something that could be improved I'll be happy to accept a pull request. I know there are aspects of pages that are constantly changing or are specific to certain variables.</p>
+- Nathan
