@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           Simple Slashdot - Hide Sponsored
+@namespace      github.com/morenathan/user-css-simple
+@version        1
+@description    Simple, try to hide the sponsored "article"
+@author         Nathan Middleton <nathan@aplace.us>
+@license        BSD-2-Clause
+==/UserStyle== */
+
+@-moz-document domain("slashdot.org") {
+		article:has(div.ntv-sponsored-disclaimer),
+		article:has(div.ntv-sponsored-disclaimer) header,
+		article:has(div.ntv-preview-img-wrapper) div {
+			display: none !important;
+		}
+}
