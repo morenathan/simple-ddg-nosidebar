@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           Simple Slashdot - Readability
+@namespace      github.com/morenathan/user-css-simple
+@version        1
+@description    Reset font attributes for articles and comments.
+@author         Nathan Middleton <nathan@aplace.us>
+@license        BSD-2-Clause
+==/UserStyle== */
+
+@-moz-document domain("slashdot.org") {
+	article,
+	#commentlisting {
+		font-family: initial;
+		font-size: initial;
+	}
+}
