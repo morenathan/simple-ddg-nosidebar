@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name           Hide Commerce - Reddit - Simple
+@author			Nathan Middleton <nathan@aplace.us>
+@version		1
+@description    Try to hide various "commerce" and "sell you on something" things.
+@namespace      github.com/morenathan/user-css-simple
+@license        BSD-2-Clause
+==/UserStyle== */
+
+@-moz-document domain("www.reddit.com") {
+	#change-username-tooltip-id span:has(button > svg) {
+		display: none;
+	}
+
+	#change-username-tooltip-id span:has(a[aria-label="Advertise"]) {
+		display: none;
+	}
+}
