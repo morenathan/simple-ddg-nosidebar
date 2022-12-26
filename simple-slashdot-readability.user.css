@@ -8,9 +8,7 @@
 ==/UserStyle== */
 
 @-moz-document domain("slashdot.org") {
-	article,
-	#commentlisting {
-		font-family: initial;
-		font-size: initial;
+	* {
+		font-family: sans-serif !important;
 	}
 }
