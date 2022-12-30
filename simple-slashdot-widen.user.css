@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Simple Slashdot - Widen News
 @namespace      github.com/morenathan/user-css-simple
-@version        3
+@version        4
 @description    Simple, widen news and hide the sidebar.
 @author         Nathan Middleton <nathan@aplace.us>
 @license        BSD-2-Clause
@@ -19,4 +19,23 @@
 		margin-left: initial !important;
 		margin-right: initial !important;
 	}
+    
+    .rail-right {
+        max-width: initial !important;
+        padding: initial !important;
+        margin: initial !important;
+        clear: both !important;
+        
+        display: flex !important;
+    }
+    
+    .rail-right article,
+    .rail-right div {
+        flex: 1 1;
+        margin: .5em;
+    }
+    
+    .rail-right div {
+        display: none !important;
+    }
 }
