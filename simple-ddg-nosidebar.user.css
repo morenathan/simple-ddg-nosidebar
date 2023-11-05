@@ -1,23 +1,34 @@
 /* ==UserStyle==
 @name           Simple DuckDuckGo - No Sidebar
-@author		Nathan Middleton <nathan@aplace.us>
-@version	3
+@author		    Nathan Middleton <nathan@aplace.us>
+@version	    4
 @description    Simple, hide the sidebar along with fix page width hinting.
-@namespace	github.com/morenathan/user-css-simple
+@namespace	    github.com/morenathan/user-css-simple
 @license        BSD-2-Clause
 ==/UserStyle== */
-
 @-moz-document domain("duckduckgo.com") {
-	* {
-		min-width: initial !important;
-	}
-	
-	.results--main {
-		max-width: initial !important;
-	}
+    div:has(> section[data-area="mainline"]) {
+        display: block !important;
+    }
 
-	.results--sidebar,
-	.js-results-sidebar {
-		visibility: collapse;
-	}
+    section[data-area="mainline"] {
+        display: block !important;
+        max-width: initial !important;
+        flex: initial !important;
+    }
+
+    .serp__results {
+        min-width: initial !important;
+        box-sizing: initial !important;
+    }
+
+    .results--main {
+        max-width: initial;
+    }
+
+    .results--sidebar {
+        min-width: initial !important;
+        max-width: initial !important;
+        margin-left: initial !important;
+    }
 }
