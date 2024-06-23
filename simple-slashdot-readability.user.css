@@ -9,6 +9,6 @@
 
 @-moz-document domain("slashdot.org") {
 	* {
-		font-family: sans-serif !important;
+		font-family: "IBM Plex Serif Text", serif !important;
 	}
 }
